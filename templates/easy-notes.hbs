@@ -1,0 +1,7 @@
+<form>
+	<div class="easy-notes flexcol">
+	{{#each easynotes}}
+		<textarea name="{{id}}.content" data-note-id="{{id}}" rows="{{size.height}}" cols="{{size.width}}" data-dtype="String" style="background-color: {{style.bgColor}}; color: {{style.textColor}}; font-size:{{style.textSize}}%; font-weight: {{style.textWeight}};">{{content}}</textarea>
+	{{/each}}
+	</div>
+</form>

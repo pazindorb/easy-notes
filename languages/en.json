@@ -1,0 +1,36 @@
+{
+	"EASY-NOTES": {
+		"button-title": "Open Easy Notes",
+		"settings": {
+			"inject-button": {
+				"Name": "Display Easy Notes button?",
+				"Hint": "Controls whether or not Easy Notes can be opened from the player list."
+			},
+			"textarea-height": {
+				"Name": "Text area height",
+				"Hint": "Increase or reduce the rows of Easy Notes text area. (default is 40)"
+			},
+			"textarea-width": {
+				"Name": "Text area width",
+				"Hint": "Increase or reduce the columns of Easy Notes text area. (default is 80; will refresh the page on save)"
+			},
+			"bg-color": {
+				"Name": "Background color",
+				"Hint": "Change the background color of Easy Notes text area. (default is trasparent)"
+			},
+			"text-color": {
+				"Name": "Text color",
+				"Hint": "Change the text color in Easy Notes text area. (default is black)"
+			},
+			"text-size": {
+				"Name": "Text size",
+				"Hint": "Change the text size in Easy Notes text area. (default is 100; also changes the size of text area)"
+			},
+			"text-weight": {
+				"Name": "Text weight",
+				"Hint": "Change the text weight in Easy Notes text area. (default is 400)"
+			}
+
+		}
+	}
+}
