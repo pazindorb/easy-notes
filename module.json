@@ -28,6 +28,6 @@
 		}
 	],
 	"url": "https://github.com/djeval/easy-notes",
-	"manifest": "",
-	"download": ""
+	"manifest": "https://raw.githubusercontent.com/djeval/easy-notes/main/module.json",
+	"download": "https://github.com/djeval/easy-notes/archive/refs/heads/main.zip"
 }
