@@ -217,7 +217,7 @@ Hooks.on('renderPlayerList', (playerList, html) => {
 	);
 
 	// create note if the user doesn't have one
-	const userData = game.users.get(game.userId).data
+	const userData = game.users.get(game.userId)
 	if (userData.flags['easy-notes'] === undefined) {
 		EasyNoteData.createEasyNote(game.userId, '')
 	}
