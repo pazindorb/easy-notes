@@ -1,24 +1,30 @@
 {
-	"name": "easy-notes",
+	"id": "easy-notes",
 	"title": "Easy Notes",
 	"description": "A simple module which add a user specific area for note taking",
-	"version": "1.0",
+	"version": "1.0.1",
+	"compatibility": {
+		"minimumCoreVersion": 10,
+		"compatibleCoreVersion": 10
+	},
 	"authors": [{
 		"name": "djeval"
 	}],
-	"minimalCoreVersion": "0.8.8",
-	"compatibleCoreVersion": "9",
+	"relationships": {
+		"requires": [{
+			"id": "colorsettings",
+			"type": "module",
+			"manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/2.9.0/module.json",
+			"compatibility": {
+				"verified": "2.9.0"
+			}
+		}]
+	},
 	"scripts": [
 		"scripts/easy-notes.js"
 	],
 	"styles": [
 		"styles/easy-notes.css"
-	],
-	"dependencies": [
-	{
-		"name": "colorsettings",
-		"manifest": "https://raw.githubusercontent.com/ardittristan/VTTColorSettings/2.8.4/module.json"
-	}	
 	],
 	"languages": [
 		{
