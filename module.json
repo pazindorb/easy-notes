@@ -4,8 +4,8 @@
 	"description": "A simple module which add a user specific area for note taking",
 	"version": "1.0.1",
 	"compatibility": {
-		"minimumCoreVersion": 10,
-		"compatibleCoreVersion": 10
+		"minimum": 10,
+		"verified": 10
 	},
 	"authors": [{
 		"name": "djeval"
