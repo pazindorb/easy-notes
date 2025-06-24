@@ -196,7 +196,8 @@ Hooks.once('ready', () => {
     }
 });
 
-Hooks.on('renderPlayerList', (playerList, html) => {
+Hooks.on('renderPlayers', (playerList, element) => {
+	const html = $(element);
 	// do not render if un-toggled from settings
 	if (!game.settings.get(EasyNote.ID, EasyNote.SETTINGS.INJECT_BUTTON)) {
 		return;
